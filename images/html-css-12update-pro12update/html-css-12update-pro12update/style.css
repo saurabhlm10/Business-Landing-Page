@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    width: 100%;
+}
+.header-section{
+    background-color:#636c79;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.header-section .wrap{
+    background-color:#636c79;
+    width: 100%;
+    width:1170px;
+    margin: 0px auto 40px auto;
+}
+.container{
+    width:1170px;
+    margin: 40px auto 40px auto;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.list{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.grow-list { margin-left: 289px;}
+ul.list li a{
+    color: #d0d3d7;
+    padding:0px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+ 
+ul.list li a:hover{
+    opacity: 0.6;
+}
+.nav-button{
+    padding: 7px 35px;
+    font-family: 'Open Sans';
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    border:solid 2px #777c84;
+    border-radius: none;
+   color: #d0d3d7;
+  
+}
+.nav-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.search-div{
+    background-color: #fff;
+    border-radius: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+input[type="text"]{
+    background-color: #fff;
+    border: none;
+    width: 65%;
+     font-size: 16px;
+   }
+   ::placeholder{
+    color: #d0d3d7;
+    font-size: 16px;
+   }
+.icon {
+    padding-left: 25px;
+    background: url(./assets/email-icon.png) no-repeat left;
+    
+  }
+
+.search-button{
+    padding: 14px 30px;
+    background-color: #8ab8a2;
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;  
+    margin-left: 10px;
+    border: none;
+}
+.search-button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.connect-section{
+    text-align: center;
+    padding: 50px 0px;
+}
+.project-detail{
+    display: flex;
+    justify-content: space-around;
+}
+.project-box{
+    margin: 0px 72px;
+}
+.connect-section h1{
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+    color: #000;
+   font-size: 45px;
+}
+
+.connect-section h2{
+    font-family: 'Open Sans';
+    color: #000;
+    font-weight: 900;
+    font-size:40px ;
+    margin-bottom: 10px;
+}
+.connect-section p{
+    font-family: 'Raleway';
+    color: #2f2f2f;
+    font-weight: 900;
+}
+
+.team-img{
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+.banner-container2{
+    position: relative;
+   
+    padding: 50px 0px;
+    
+}
+.banner-container2 h1{
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+   
+}
+.banner-wrap{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 57px;
+}
+.heading-text2{
+    font-size: 60px;
+    color: #000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    text-align: left!important;
+}
+
+.search-btn-big{
+    padding: 18px 60px;
+    background-color: #8ab8a2;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;  
+    margin-left: 10px;
+    border: none;
+    
+}
+.search-btn-big:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+ 
+.banner-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.heading-text{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.description{
+    color: #c8ccd0;
+    text-align: left;
+    font-weight:400;
+    font-family: 'Open Sans';
+    line-height: 27px;
+   
+}
+.banner-wrap p{
+    color: #a8a9aa;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 32px;
+    font-size: 21px;
+   
+}
+.mrle40{
+    margin-left: 40px;
+}
+.btn{
+    margin-top: 35px;
+    
+  }
+
+
+.teams{
+    margin: 50px  0px  0px 0px;
+  
+}
+.team-main{
+    display: flex;
+    justify-content: space-between;
+}
+.team-main h1 {
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+}
+.team-main  p{
+    color: #a8a9aa;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 32px;
+    font-size: 21px;
+}
+.team-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.team-box .box{
+    width: 100%; 
+    margin: 20px 20px 20px 20px;
+   
+}
+.box p {
+
+    color: #a8a9aa;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.box h2{
+    font-family:'Raleway';
+    color: #000;
+    font-weight: 800;
+}
+ .team-button{
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+ }
+
+.clear{clear: both;}
+ 
+.btnpad{
+   padding: 15px 35px
+}
+
+.footer{
+    margin-top: 54px;
+    background-color: #10181c;
+    width: 100%;
+    padding-top:50px;
+    padding-bottom:50px;
+ 
+}
+.footer-main-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #292929;
+    padding-bottom: 30px;
+}
+.footer-main-header span  {padding: 0px 5px;}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container h2{
+    font-family: 'Open Sans';
+    color: #fbfcfd;
+    font-weight: 500;
+}
+.footer-container p{
+    font-family: 'Open Sans';
+    color: #a9a9a9;
+    text-align: left;
+}
+ul.footerlist{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+ul.footerlist li{
+    padding:0px 0px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: #a9a9a9;
+    font-weight: 500;
+    line-height: 41px;
+    text-align: left;
+    cursor: pointer;
+}
+ul.footerlist li:hover{
+    opacity: 0.7;
+
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
