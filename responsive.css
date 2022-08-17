@@ -1,0 +1,171 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+        height: 25vh;
+    }
+    
+    .logo{
+        margin-left: 0vw;
+    }        
+
+    .nav-list{
+        margin-left: 0vw;
+    }
+
+    .list-items{
+        width: 80vw;
+    }
+
+    .header{
+        flex-direction: column;
+        height: 150vh;
+        text-align: center;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        align-items: center;
+    }
+
+    .header-image{
+        width: 80vw;
+    }
+
+    .header-right{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-right form{
+        width: 85vw;
+    }
+
+    .btn{
+        font-size: 13px;
+
+    }
+
+    .header-right form button{
+        margin-left: 20vw;
+    }
+
+    .details{
+    }
+
+    .details-heading>h1{
+        width: 80vw;
+    }
+
+    .detail-pointers{
+        width: 90%;
+    }
+
+    .video-container{
+        margin: 10vh 0vw 0 0vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container img{
+        width: 80vw;
+    }
+
+    .features{
+
+    }
+
+    .features>h1{
+        width: 80vw;
+    }
+
+    .banner{
+        flex-direction: column;
+        text-align: center;
+        padding: 10vh 0;
+    }
+
+    .banner-image{
+        margin-top: 10vh;
+        width: 80vw;
+    }
+
+    .banner-description{
+        width: 80vw;
+        margin-top: 10vh;
+    }
+
+    .teams{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .teams-heading{
+        flex-direction: column;
+    }
+
+    .teams-heading h1{
+        width: 80vw;
+    }
+
+    .teams-heading p{
+        width: 80vw;
+        margin-top: 5vh;
+    }
+
+    .team-members{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member{
+        width: 80vw;
+    }
+
+    .member-image{
+        margin-top: 5vh;
+        height: 80vh;
+        width: 80vw;
+    }
+
+    .member-image img{
+        width: 80vw;
+    
+    }
+
+    footer{
+        padding: 10vh;
+
+    }
+
+    .footer-heading{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socials{
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .footer-menus{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-menu{
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+}
